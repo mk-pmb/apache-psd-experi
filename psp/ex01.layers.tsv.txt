@@ -1,0 +1,5 @@
+filename	scene_id	layer_name	layer_size	layer_pos
+ex01.psd	0		100:60	+0:+0
+ex01.psd	1	backgr	100:60	+0:+0
+ex01.psd	2	rects	95:48	+3:+10
+ex01.psd	3	circles	87:57	+4:+0

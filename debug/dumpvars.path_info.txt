@@ -1,0 +1,59 @@
+http://localhost/sven/imagick/demo/debug/dumpvars.path_info.html
+
+hash = (0)	""
+host = (9)	"localhost"
+hostname = (9)	"localhost"
+href = (skip)
+origin = (16)	"http://localhost"
+pathname = (48)	"/services/tryjs/integration/apache/dumploca.html"
+port = (0)	""
+protocol = (5)	"http:"
+search = (1178)	"?QUERY_STRING=%5b%5bfoo=bar
+	&baz=zap%5d%5d
+	&API_VERSION=20120211:36
+	&AUTH_TYPE=
+	&CONN_REMOTE_ADDR=127.0.0.1
+	&CONN_REMOTE_ADDR=127.0.0.1
+	&CONTEXT_DOCUMENT_ROOT=/var/www/sven/
+	&CONTEXT_PREFIX=/sven/
+	&DOCUMENT_ROOT=/var/www/default-site
+	&HTTP_ACCEPT=**unrelated**
+	&HTTP_COOKIE=**unrelated**
+	&HTTP_FORWARDED=
+	&HTTP_HOST=localhost
+	&HTTP_PROXY_CONNECTION=
+	&HTTP_REFERER=**unreliable**
+	&HTTP_USER_AGENT=**unrelated**
+	&HTTPS=off
+	&IPV6=off
+	&IS_SUBREQ=false
+	&PATH_INFO=/sub/path/info.txt
+	&REMOTE_ADDR=**unrelated**
+	&REMOTE_ADDR=**unrelated**
+	&REMOTE_HOST=**unrelated**
+	&REMOTE_IDENT=**unrelated**
+	&REMOTE_PORT=**unrelated**
+	&REMOTE_USER=**unrelated**
+	&REQUEST_FILENAME=/var/www/sven/imagick/demo/debug/dumpvars.redir
+	&REQUEST_METHOD=GET
+	&REQUEST_SCHEME=http
+	&REQUEST_URI=/sven/imagick/demo/debug/dumpvars.redir/sub/path/info.txt
+	&SCRIPT_FILENAME=/var/www/sven/imagick/demo/debug/dumpvars.redir
+	&SCRIPT_GROUP=**unrelated**
+	&SCRIPT_USER=**unrelated**
+	&SERVER_ADDR=**unrelated**
+	&SERVER_ADMIN=**unrelated**
+	&SERVER_NAME=**see:HTTP_HOST**
+	&SERVER_PORT=80
+	&SERVER_PROTOCOL=HTTP/1.1
+	&SERVER_SOFTWARE=Apache/2.4.10%20(Ubuntu)
+	&TIME_DAY=14
+	&TIME_HOUR=14
+	&TIME_MIN=10
+	&TIME_MON=11
+	&TIME_SEC=52
+	&TIME_WDAY=1
+	&TIME_YEAR=2016
+	&TIME=20161114141052"
+
+# -*- coding: utf-8, tab-width: 8 -*-
