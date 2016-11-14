@@ -5,6 +5,10 @@
   * could generate a dirlist from the PHP script.
 * `http://localhost/sven/imagick/demo/fbres/fbr404.psd` = fallback.php
   * could generate 404 from the PHP script.
+* `http://localhost/sven/imagick/demo/fbres/sub/fbr404.psd` =
+  * The requested URL /sven/imagick/demo/fbres/sub/fbr404.psd
+    was not found on this server.
+  * access log: 404 delivered; error log: no new entry
 
 &nbsp;
 

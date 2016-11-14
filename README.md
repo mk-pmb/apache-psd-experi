@@ -1,5 +1,16 @@
 ﻿
-Current problem:
+Purpose
+-------
+
+I want to enchant `.psd` image files with virtual subpaths that extract
+parts of the image, or meta data.
+`ex01.psd` contains a layer named "circles", and
+`ex01.psd/layers/circles.png` shall be that layer's pixel data
+converted to PNG image format.
+
+
+Current problem
+---------------
 
 http://localhost/sven/imagick/demo/psp/ex01.psd/layers/circles.png
 
