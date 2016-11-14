@@ -8,20 +8,30 @@
 * `http://localhost/sven/imagick/demo/fbres/sub/fbr404.psd` =
   * The requested URL /sven/imagick/demo/fbres/sub/fbr404.psd
     was not found on this server.
-  * access log: 404 delivered; error log: no new entry
+  * access log: 404 delivered; error log:
+    AH00128: File does not exist: /var/www/sven/imagick/demo/fbres/sub/fbr404.psd
+  * why not fallback.php?
 
 &nbsp;
 
 * `http://localhost/sven/imagick/demo/fbres/fbr01.psd` = download, good.
 * `http://localhost/sven/imagick/demo/fbres/fbr01.psd/layers/circles.png` =
-  * The requested URL /sven/imagick/demo/fbres/fbr01.psd/layers/circles.png
-    was not found on this server.
-  * access log: 404 delivered; error log: no new entry
+  * `AcceptPathInfo On`: download of original file, but I want fallback.php
+  * `AcceptPathInfo Off`:
+    * The requested URL /sven/imagick/demo/fbres/fbr01.psd/layers/circles.png
+      was not found on this server.
+    * access log: 404 delivered; error log:
+      AH00130: File does not exist:
+      /var/www/sven/imagick/demo/fbres/fbr01.psd/layers/circles.png
 
 &nbsp;
 
 * `http://localhost/sven/imagick/demo/fbres/sub/fbr01.psd` = download, good.
 * `http://localhost/sven/imagick/demo/fbres/sub/fbr01.psd/layers/circles.png` =
-  * The requested URL /sven/imagick/demo/fbres/sub/fbr01.psd/layers/circles.png
-    was not found on this server.
-  * access log: 404 delivered; error log: no new entry
+  * `AcceptPathInfo On`: download of original file, but I want fallback.php
+  * `AcceptPathInfo Off`:
+    * The requested URL /sven/imagick/demo/fbres/sub/fbr01.psd/layers/circles.png
+      was not found on this server.
+    * access log: 404 delivered; error log:
+      AH00130: File does not exist:
+      /var/www/sven/imagick/demo/fbres/sub/fbr01.psd/layers/circles.png

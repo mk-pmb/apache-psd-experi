@@ -1,5 +1,7 @@
 # -*- coding: utf-8, tab-width: 2 -*-
 
+AcceptPathInfo On
+
 RewriteEngine on
 RewriteRule "^(\w+/)*(ex\w.*\.psd)(/.*)$" "dump-psd.php"
 

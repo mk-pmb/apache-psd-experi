@@ -1,3 +1,5 @@
 # -*- coding: utf-8, tab-width: 2 -*-
 
+AcceptPathInfo Off
+
 FallbackResource ../fallback.php
